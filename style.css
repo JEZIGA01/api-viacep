@@ -1,0 +1,48 @@
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  min-width: 100%;
+}
+
+.container-Banner {
+  border: 1px solid #8a8b8af8;
+  background:#FFB454;  
+  width: 100vw;
+  height: 20vh;
+}
+
+.container-MyPicture {
+  text-align: center;
+  padding: 1rem 0 0 0;
+  width: 100%;
+  min-width: 100%;
+}
+
+.img-profile {
+  border-radius: 50%; 
+  object-fit: fill;
+  width: 180px;
+  height: 180px;
+}
+.container-CEP{
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  padding-top: 5%;
+} 
+input{
+  margin-top:3%;
+}
+div{
+  text-align:center;
+}
+@media only screen and (max-width:1209px) {
+  .container-CEP {  
+    padding-top: 19%;
+  }
+} 
