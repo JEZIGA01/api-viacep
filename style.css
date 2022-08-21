@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
+:root{
+  --ff: 'Roboto', sans-serif;
+}
 html,
 body {
   width: 100vw;
   height: 100vh;
 }
-
+.title{ 
+  font-family:var(--ff);
+  font-weight: 500;
+}
 .container {
   min-width: 100%;
 }
@@ -34,6 +41,7 @@ body {
   flex-direction: column;
   text-align:center;
   padding-top: 5%;
+  font-family:var(--ff);
 } 
 input{
   margin-top:3%;
