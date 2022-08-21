@@ -11,8 +11,7 @@ function showCEP(event) {
 function buscaCep(cep) {
   fetch(`https://viacep.com.br/ws/${cep}/json/`)
     .then(response => response.json())
-    .then(body => {
-      console.log(body) 
+    .then(body => { 
       resultadoCep.innerText = `
     O seu logradouro é: ${body.logradouro}, localizado na cidade: ${body.localidade},
      no bairro : ${body.bairro}, estado : ${body.uf}
