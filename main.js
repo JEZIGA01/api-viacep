@@ -4,6 +4,7 @@ const resultadoCep = document.querySelector('.resultadoCep');
 inputCep.addEventListener('keyup', showCEP);
 
 function showCEP(event) {
+  event.preventDefault();
   const cep = inputCep.value;
   buscaCep(cep);
 }
